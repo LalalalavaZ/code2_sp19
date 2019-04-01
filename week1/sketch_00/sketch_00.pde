@@ -11,7 +11,9 @@ void setup() {
 void draw() {
 
   for (int i=50; i<width; i+=100) {
+    ellipseMode(CENTER);
     ellipse(i, height/2, 50, 50);
+    float d = dist(i, height/2, mouseX, mouseY);
+    
   }
-  if (){}
 }
