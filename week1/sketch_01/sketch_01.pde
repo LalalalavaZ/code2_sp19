@@ -32,7 +32,6 @@ void draw() {
         if (isActive[i][j]) {
           fill(col[i][j]);
           rect(pos[i][j].x, pos[i][j].y, CELLSIZE, CELLSIZE);
-        
       }
     }
   }
