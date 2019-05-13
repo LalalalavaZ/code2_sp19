@@ -1,9 +1,10 @@
 class Hair{
   float radio;
   float hairLong = random(1.5, 1.7);
-  
+  float theta = asin(z/radio);
   
   void display(){
+    
     float xa;
     float ya;
     float za;
