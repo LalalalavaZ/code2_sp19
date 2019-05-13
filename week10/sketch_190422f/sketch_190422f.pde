@@ -19,7 +19,9 @@ void draw() {
 }
 
 class Ball {
-
+  
+  
+  
   void display() {
     beginShape(POINTS);
     stroke(255);
